@@ -1,0 +1,12 @@
+quarkus:
+  rest-client:
+    "extensions-api":
+      url: https://stage.code.quarkus.io/api
+    logging:
+      scope: all
+      body-limit: 50
+
+  log:
+    category:
+      "org.jboss.resteasy.reactive.client.logging":
+        level: DEBUG
